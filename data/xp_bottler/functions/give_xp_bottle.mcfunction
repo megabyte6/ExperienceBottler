@@ -1,3 +1,5 @@
-kill @e[type=minecraft:item, limit=1, sort=nearest, nbt={Item:{id:"minecraft:glass_bottle", Count:1b}}]
+# Remove closest glass bottle item from the player.
+kill @e[type=minecraft:item, sort=nearest, limit=1, nbt={Item:{id:"minecraft:glass_bottle", Count:1b}}]
+
 xp add @s -7 points
 give @s minecraft:experience_bottle 1
