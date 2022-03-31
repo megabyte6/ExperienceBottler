@@ -3,3 +3,4 @@ kill @e[type=minecraft:item, sort=nearest, limit=1, nbt={Item:{id:"minecraft:gla
 
 xp add @s -7 points
 give @s minecraft:experience_bottle 1
+playsound minecraft:entity.experience_orb.pickup player @s
